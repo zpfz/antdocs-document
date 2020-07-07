@@ -3,6 +3,7 @@ module.exports = {
   theme: 'antdocs',
   description: '一款 Ant Design 设计风格的 VuePress 主题',
   base: '/',
+  dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/assets/logo.png' }],
     ['script', { type: 'text/javascript', src: '/assets/js/push.js' }],
