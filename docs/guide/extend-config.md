@@ -1,0 +1,177 @@
+---
+title: 扩展配置
+---
+
+# 扩展配置
+
+<a-alert type="error" closable>
+  <span slot="message">
+    由于时间精力有限，本主题暂时不支持 多语言 设置，请不要尝试按照官方配置设置多语言，否则可能会发生不可预料的错误。
+  </span>
+</a-alert>
+
+## 底部栏
+
+我们为主题新增了首页底部栏功能，最大可支持 4 个栏目数，每个栏目数可以添加多个 Item。接下来我们将讲解如何去开启这个功能以及使用时需要注意的问题。  
+
+打开你默认作为首页的 `README.md` 文件，在 Front Matter 之间添加以下配置：
+
+```md
+footerColumn: 2
+footerWrap: 
+- headline: Column 1
+  items:
+  - title: Item 1
+    link: https://github.com/zpfz/vuepress-theme-antdocs
+    details: details
+  - title: Item 2
+    link: https://github.com/zpfz/vuepress-theme-antdocs
+    details: details
+- headline: Column 2
+  items:
+  - title: Item 1
+    link: https://github.com/zpfz/vuepress-theme-antdocs
+    details: details
+  - title: Item 2
+    link: https://github.com/zpfz/vuepress-theme-antdocs
+    details: details
+```
+其中，相关字段说明如下：
+- `footerColumn`：底部栏分栏数，最大支持 4 个栏目数。<a-tag color="orange">开启时必选</a-tag>
+- `footerWrap`：底部栏数组。<a-tag color="orange">开启时必选</a-tag>
+  - `headline`：底部栏分栏标题。<a-tag color="green">推荐设置</a-tag>
+  - `items`
+    - `title`：底部栏分栏下 item 的名称。<a-tag color="orange">开启时必选</a-tag>
+    - `link`：底部栏分栏下 item 的导航链接。<a-tag color="orange">开启时必选</a-tag>
+    - `details`：底部栏分栏下 item 的描述信息。<a-tag color="blue">可选</a-tag>
+
+## 广告位 <a-tag color="red">NEW</a-tag>
+
+为了保证项目维护与发展，我们给主题添加了广告位功能，用户可以给侧边栏自定义广告，通过获取额外的资金来鼓励自己写作的积极性，这对开发者是极有帮助的。  
+目前，广告位支持两种风格以及一种招待状态。打开 `.vuepress/config.js` 文件，在 `themeConfig` 下添加 `ads` 字段，如下所示：
+```js {3-5}
+themeConfig: {
+  ...
+  ads:{
+    // 广告位配置
+  },
+  ...
+}, 
+```
+
+### 广告风格一
+最基本的广告风格就是 `图片+文字描述`，你可以通过以下的配置来使用这个功能：
+```js
+themeConfig: {
+  ...
+  ads:{
+    style: 1, 
+    image: 'https://s1.ax1x.com/2020/03/22/84PzLD.png',
+    text: 'Limited time offer: Get 10 free Adobe Stock images.',
+    link: 'https://vuepress.vuejs.org/',
+  },
+  ...
+}, 
+```
+其中，相关字段说明如下：
+- `style`：指定某种风格，可选参数：1，2，3。<a-tag color="orange">开启时必选</a-tag>
+- `image`：指定图片链接。<a-tag color="green">推荐设置</a-tag>
+- `text`：指定文本描述。<a-tag color="green">推荐设置</a-tag>
+- `link`：指定点击广告时跳转的链接。<a-tag color="green">推荐设置</a-tag>
+
+此外，你可以在 `.vuepress/styles/palette.less` 下添加样式变量 `@AdsStyle1MW` 来设置图片的最大宽度。
+
+### 广告风格二  
+当你想直接用图片或者有多张图片作为广告时，你可以通过以下的配置来使用这个功能：
+```js
+themeConfig: {
+  ...
+  ads:{
+    style: 2, 
+    speed: 2000,
+    items:[
+      {
+        text: 'Ads details here',
+        image:'https://cn.bing.com/th?id=OHR.LoughriggTarn_ZH-CN1404327665_1920x1080.jpg',
+        link: 'https://vuepress.vuejs.org/'
+      },
+      {
+        text: 'Ads details here',
+        image:'https://cn.bing.com/th?id=OHR.MetamorphicRocks_ZH-CN9753251368_1920x1080.jpg',
+        link: 'https://vuepress.vuejs.org/'
+      },
+      {
+        text: 'Ads details here',
+        image:'https://cn.bing.com/th?id=OHR.KeichitsuCrocuse_ZH-CN1061292366_1920x1080.jpg',
+        link: 'https://vuepress.vuejs.org/'
+      }
+    ]
+  },
+  ...
+}, 
+```
+其中，相关字段说明如下：
+- `style`：指定某种风格，可选参数：1，2，3。<a-tag color="orange">开启时必选</a-tag>
+- `speed`：指定切换图片时的速度，默认 3000 毫秒（3秒）。<a-tag color="green">推荐设置</a-tag>
+- `items`  
+    - `text`：指定鼠标在广告上悬停时显示的信息。<a-tag color="green">推荐设置</a-tag>
+    - `image`：指定图片链接。<a-tag color="green">推荐设置</a-tag>
+    - `link`：指定点击广告时跳转的链接。<a-tag color="green">推荐设置</a-tag>
+
+### 招待状态
+当你需要招广告商时，你可以通过以下的配置来使用这个功能：
+```js
+themeConfig: {
+  ...
+  ads:{
+    style: 3, 
+    title: '赞助商', 
+    btnText: '成为赞助商',
+    msgTitle: '成为赞助商',
+    msgText: '如果您有品牌推广、活动推广、招聘推广、社区合作等需求，欢迎联系我们，成为赞助商。您的广告将出现在 AndDocs 文档侧边栏等页面。',
+    msgOkText: '确定',
+  },
+  ...
+}, 
+```
+其中，相关字段说明如下：
+- `style`：指定某种风格，可选参数：1，2，3。（实际上，除了1和2之外，其他参数的状态都是这个风格。）<a-tag color="orange">开启时必选</a-tag>
+- `title`：指定广告位的标题。<a-tag color="green">推荐设置</a-tag>
+- `btnText`：指定广告位按钮的名称。<a-tag color="green">推荐设置</a-tag>
+- `msgTitle`：指定弹窗的标题。<a-tag color="green">开启时必选</a-tag>
+- `msgText`：指定弹窗的文本信息。<a-tag color="green">开启时必选</a-tag>
+- `msgOkText`：指定弹窗关闭按钮的名称。<a-tag color="green">开启时必选</a-tag>
+
+当然，这三种效果的配置可以同时存在，你只需要设置好 `style` 就能指定显示某种效果。
+此外，为了给用户保留较好的浏览效果，广告位在移动端默认不显示。如果你非要在移动端显示侧边栏广告的话，可以在 `.vuepress/styles/palette.less` 下添加 `@MobileShow: block;` 即可。
+
+## 置顶按钮 <a-tag color="red">NEW</a-tag>
+
+为了能够让用户有更多的自由性去设置主题，我们将置顶按钮修改为可自定义开启，只需在 `.vuepress/config.js` 中 `themeConfig` 字段下添加一行 `backToTop: true` 即可开启，反之则关闭。配置示例代码如下：
+```js {3}
+themeConfig: {
+  ...
+  backToTop: true,
+  ...
+}
+```
+
+## 首页次级按钮 <a-tag color="red">NEW</a-tag>
+考虑到有些用户需要使用首页次级按钮来引导读者，所以我们在新版本中多添了一个次级按钮。打开你的首页 md 文件，在 YAML 内添加以下代码开启次级按钮：   
+```md
+preactionText: 次级按钮
+preactionLink: /guide/
+```
+
+## 移动端侧边栏按钮 <a-tag color="red">NEW</a-tag>
+当你的页面没有侧边栏时，应该在页面 YAML 部分添加以下配置来关闭移动端的侧边栏按钮：
+```sh
+---
+toggleBtn: 0
+---
+```
+<a-alert type="warning" showIcon>
+  <span slot="message">
+    该特性为临时处理方案，在未来版本重构时将会进一步处理显隐逻辑并可能丢弃该功能。
+  </span>
+</a-alert> 
