@@ -58,6 +58,7 @@ typings/
 .vscode
 .env
 .idea
+dist
 .DS_Store
 lib
 es
