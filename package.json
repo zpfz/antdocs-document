@@ -7,7 +7,8 @@
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.2",
-    "vuepress-plugin-sitemap": "^2.3.1"
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "core-js": "^2.6.11"
   },
   "dependencies": {
     "vuepress-theme-antdocs": "^1.1.1"
