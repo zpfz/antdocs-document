@@ -1,8 +1,8 @@
 ---
-title: AntDocs for VuePress
+title: AntDocs of VuePress
 ---
 
-# AntDocs for VuePress
+# AntDocs of VuePress
 
 <!-- <a-alert type="success">
   <span slot="message">
