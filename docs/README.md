@@ -32,9 +32,6 @@ footerWrap:
 - headline: 💬社区交流
   items:
   - title: VuePress 社区
-    link: https://zhuanlan.zhihu.com/press-of-vue/
-    details: 知乎专栏
-  - title: VuePress 社区
     link: https://shang.qq.com/wpa/qunwpa?idkey=fce20f9d7a5620dbb261b31b6bd01f726c9e24e7697fcba4ea7927d5dc971ac5
     details: QQ交流群
   - title: 入驻申请
@@ -117,6 +114,13 @@ module.exports = {
     Yexk_M
   </template>
   <a-avatar src="https://avatars2.githubusercontent.com/u/19749521?s=400&u=62d64f041af4a703c3a4089de9957c7c6a5c671f&v=4" :size="54"/>
+</a-tooltip> 
+&ensp;
+<a-tooltip placement="bottom">
+  <template slot="title">
+    kitaharafay
+  </template>
+  <a-avatar src="https://avatars0.githubusercontent.com/u/37034015?s=400&u=773ab8dae0850cfd01f828e7c407d423b58ec748&v=4" :size="54"/>
 </a-tooltip> 
 
 

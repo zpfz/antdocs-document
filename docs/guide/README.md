@@ -1,19 +1,20 @@
 ---
-title: AntDocs of VuePress
+title: AntDocs for VuePress
 ---
 
-# AntDocs of VuePress
+# AntDocs for VuePress
 
-<!-- <a-alert type="info" showIcon>
+<!-- <a-alert type="success">
   <span slot="message">
-    QQ交流群：867711329
+    好消息~我们已经着手准备 AntDocs V2.0 啦！最新开发进度可点击右侧查看哦： <a href="https://web.banlikanban.com/kanban/5f390691d9d7b14491180f69/" target="_blank">查看开发进度</a>
   </span>
 </a-alert> -->
 
 <!-- <a-divider dashed /> -->
 
-AntDocs 是一款由 VuePress 驱动并具有 Ant Design 设计风格的主题。  
-![build](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square) 
+AntDocs 是一款由 VuePress 驱动并具有 Ant Design 设计风格的主题。
+
+![build](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square)
 ![npm](https://img.shields.io/npm/dt/vuepress-theme-antdocs?style=flat-square&color=red)
 ![license](https://img.shields.io/github/license/zpfz/vuepress-theme-antdocs?style=flat-square)
 ![version](https://img.shields.io/npm/v/vuepress-theme-antdocs?style=flat-square)
@@ -23,7 +24,7 @@ AntDocs 是一款由 VuePress 驱动并具有 Ant Design 设计风格的主题�
 <img width="130" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"><span class="sign">+</span><img width="130" src="https://cn.vuejs.org/images/logo.png"><span class="sign">+</span><img src="https://s2.ax1x.com/2020/02/04/1DsmTO.png" alt="1DsmTO.png" width="140"/><span class="sign">=</span><span class="reset-mobile-brand-4"><img src="https://s2.ax1x.com/2020/02/27/3aIcDK.png" width="100" alt="3aIcDK.png" /></span>
 </div>
 
-<p>&nbsp; </p>  
+<p>&nbsp; </p>
 
 <!-- <a-alert type="warning" showIcon>
   <span slot="description">

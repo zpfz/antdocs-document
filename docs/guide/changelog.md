@@ -9,11 +9,18 @@ title: 更新日志
 <template>
   <a-timeline>
     <a-timeline-item>
+      v1.2.0
+      <p>
+        更新内容：<br/>
+        &emsp;- <a-tag color="orange">新增</a-tag> 新增 多语言设置。<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
       v1.1.1
       <p>
         更新内容：<br/>
         &emsp;- <a-tag color="green">优化</a-tag> 优化侧边栏标题过长时鼠标悬停的显示效果；<br/>
-        &emsp;- <a-tag color="purple">修复</a-tag> 修复移动端侧边栏按钮展开状态显示异常的BUG；<br/>
+        &emsp;- <a-tag color="purple">修复</a-tag> 修复移动端侧边栏按钮展开状态显示异常的BUG。<br/>
       </p>
     </a-timeline-item>
     <a-timeline-item>

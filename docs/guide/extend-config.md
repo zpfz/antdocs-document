@@ -4,9 +4,9 @@ title: 扩展配置
 
 # 扩展配置
 
-<a-alert type="error" closable>
+<a-alert type="info" closable>
   <span slot="message">
-    由于时间精力有限，本主题暂时不支持 多语言 设置，请不要尝试按照官方配置设置多语言，否则可能会发生不可预料的错误。
+    v1.2.0 支持 多语言设置，配置方式请按照 VuePress 官方文档设置，时空门：<a href="https://vuepress.vuejs.org/zh/guide/i18n.html" target="_blank">多语言设置</a>
   </span>
 </a-alert>
 

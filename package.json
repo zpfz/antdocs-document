@@ -6,11 +6,11 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "core-js": "^2.6.11",
     "vuepress": "^1.5.2",
-    "vuepress-plugin-sitemap": "^2.3.1",
-    "core-js": "^2.6.11"
+    "vuepress-plugin-sitemap": "^2.3.1"
   },
   "dependencies": {
-    "vuepress-theme-antdocs": "^1.1.1"
+    "vuepress-theme-antdocs": "^1.2.0"
   }
 }
