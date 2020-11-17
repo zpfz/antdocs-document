@@ -9,6 +9,14 @@ title: 更新日志
 <template>
   <a-timeline>
     <a-timeline-item>
+      v1.2.1
+      <p>
+        更新内容：<br/>
+        &emsp;- <a-tag color="green">优化</a-tag> 页脚支持渲染 html 代码（可用于实现备案号等）；<br/>
+        &emsp;- <a-tag color="green">优化</a-tag> 更改依赖版本号至最新版本。<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
       v1.2.0
       <p>
         更新内容：<br/>

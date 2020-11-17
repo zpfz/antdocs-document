@@ -45,7 +45,14 @@ footerWrap:
     - `link`：底部栏分栏下 item 的导航链接。<a-tag color="orange">开启时必选</a-tag>
     - `details`：底部栏分栏下 item 的描述信息。<a-tag color="blue">可选</a-tag>
 
-## 广告位 <a-tag color="red">NEW</a-tag>
+### 页脚 <a-tag color="green">1.2.1</a-tag>
+为了满足首页页脚支持填写备案号等需求，我们对页脚进行了优化，将其支持填写 html 代码片段。现在，除了直接填写文本外，你还可以这样使用:
+```js
+footer: Written by Feng L.H. | <a href="http://beian.miit.gov.cn/" target="_blank">自行填写ICP备案号</a>
+```
+
+
+## 广告位
 
 为了保证项目维护与发展，我们给主题添加了广告位功能，用户可以给侧边栏自定义广告，通过获取额外的资金来鼓励自己写作的积极性，这对开发者是极有帮助的。  
 目前，广告位支持两种风格以及一种招待状态。打开 `.vuepress/config.js` 文件，在 `themeConfig` 下添加 `ads` 字段，如下所示：
@@ -145,7 +152,7 @@ themeConfig: {
 当然，这三种效果的配置可以同时存在，你只需要设置好 `style` 就能指定显示某种效果。
 此外，为了给用户保留较好的浏览效果，广告位在移动端默认不显示。如果你非要在移动端显示侧边栏广告的话，可以在 `.vuepress/styles/palette.less` 下添加 `@MobileShow: block;` 即可。
 
-## 置顶按钮 <a-tag color="red">NEW</a-tag>
+## 置顶按钮 <a-tag color="red">TIP</a-tag>
 
 为了能够让用户有更多的自由性去设置主题，我们将置顶按钮修改为可自定义开启，只需在 `.vuepress/config.js` 中 `themeConfig` 字段下添加一行 `backToTop: true` 即可开启，反之则关闭。配置示例代码如下：
 ```js {3}
@@ -156,14 +163,14 @@ themeConfig: {
 }
 ```
 
-## 首页次级按钮 <a-tag color="red">NEW</a-tag>
+## 首页次级按钮
 考虑到有些用户需要使用首页次级按钮来引导读者，所以我们在新版本中多添了一个次级按钮。打开你的首页 md 文件，在 YAML 内添加以下代码开启次级按钮：   
 ```md
 preactionText: 次级按钮
 preactionLink: /guide/
 ```
 
-## 移动端侧边栏按钮 <a-tag color="red">NEW</a-tag>
+## 移动端侧边栏按钮 <a-tag color="red">TIP</a-tag>
 当你的页面没有侧边栏时，应该在页面 YAML 部分添加以下配置来关闭移动端的侧边栏按钮：
 ```sh
 ---

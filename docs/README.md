@@ -140,3 +140,6 @@ module.exports = {
   </template>
   <a-avatar src="https://s1.ax1x.com/2020/03/17/8dnGRA.th.jpg" :size="54"/>
 </a-tooltip>
+
+
+<Msg />
