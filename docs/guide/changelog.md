@@ -1,3 +1,11 @@
+<!--
+ * @Author: 左撇峰子
+ * @Description: 
+ * @Date: 2020-02-28 17:00:41
+ * @HomePage: https://zpfz.vercel.app/
+ * @Github: https://github.com/zpfz
+ * @Note: 
+-->
 ---
 title: 更新日志
 ---
@@ -9,7 +17,7 @@ title: 更新日志
 <template>
   <a-timeline>
     <a-timeline-item>
-      v1.2.1
+      v1.2.2
       <p>
         更新内容：<br/>
         &emsp;- <a-tag color="green">优化</a-tag> 页脚支持渲染 html 代码（可用于实现备案号等）；<br/>

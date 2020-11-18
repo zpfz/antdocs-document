@@ -45,7 +45,7 @@ footerWrap:
     - `link`：底部栏分栏下 item 的导航链接。<a-tag color="orange">开启时必选</a-tag>
     - `details`：底部栏分栏下 item 的描述信息。<a-tag color="blue">可选</a-tag>
 
-### 页脚 <a-tag color="green">1.2.1</a-tag>
+### 页脚 <a-tag color="green">1.2.2</a-tag>
 为了满足首页页脚支持填写备案号等需求，我们对页脚进行了优化，将其支持填写 html 代码片段。现在，除了直接填写文本外，你还可以这样使用:
 ```js
 footer: Written by Feng L.H. | <a href="http://beian.miit.gov.cn/" target="_blank">自行填写ICP备案号</a>
