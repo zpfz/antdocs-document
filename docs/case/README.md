@@ -11,7 +11,7 @@ title: AntDocs 主题优秀案例
 		cover="https://s1.ax1x.com/2020/10/07/0dP9bV.md.png" 
 		link="http://laomengit.com/" 
 		title="Flutter | 老孟" 
-		author="作者：老孟" 
+		author="作者：xieyezi" 
 	/>
 	<Card 
 		cover="https://s1.ax1x.com/2020/10/07/0dPPET.md.png" 
