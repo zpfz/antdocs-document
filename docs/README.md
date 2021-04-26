@@ -3,6 +3,8 @@ home: true
 heroImage: /assets/logo.png
 actionText: 快速上手
 actionLink: /guide/
+preactionText: AntDocs-Next
+preactionLink: https://web.banlikanban.com/kanban/6086add31e9f89215510571b/
 features:
 - title: Less 预处理器
   details: 从 Stylus 样式过渡到 Less 样式，统一使用预处理器，让 node_modules 不再过度臃肿。
