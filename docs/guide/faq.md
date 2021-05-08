@@ -13,7 +13,7 @@ title: 常见问题
     <p>该问题的引起可能是由于你的项目没有局部安装 VuePress，直接使用了全局 VuePress 会引起该问题。考虑到用户 VuePress 使用版本不一致以及兼容性，主题默认不再安装 VuePress 依赖，所以使用前请给你的项目安装上 VuePress。（见 <a href="https://github.com/zpfz/vuepress-theme-antdocs/issues/1" target="_blank">#1<OutboundLink /></a>）<a href="https://s2.ax1x.com/2020/03/07/3vAGtO.png" target="_blank">附图<OutboundLink /></a></p> 
   </a-collapse-panel>
   <a-collapse-panel header="为什么按照官方配置了主题，仍然运行不了？提示 Cannot find moudle 'core-js/...'？" key="2" class="faq-collapse">  
-    <p>请将主题更新到 1.3.1 版本即可解决。</p> 
+    <p>请将主题更新到 1.3.2 版本即可解决。</p> 
   </a-collapse-panel>
   <a-collapse-panel header="可以同时使用 Less 和 Stylus 预处理器嘛？" key="3" class="faq-collapse">
     <p>可以，但不推荐。一来 Less 变量无法直接在 Stylus 上使用，二来还需要安装 Stylus 预处理器，这会让你的 node_modules 变得臃肿。</p>

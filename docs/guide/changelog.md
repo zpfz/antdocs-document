@@ -9,15 +9,14 @@ title: 更新日志
 <template>
   <a-timeline>
     <a-timeline-item>
-      v1.3.1
+      v1.3.2
       <a-tag color="#f50">推荐</a-tag>
       <p>
         更新内容：<br/>
         &emsp;- <a-tag color="green">优化</a-tag> 丰富首页主要和次要按钮的配置，使配置更加自由 (<a href="https://github.com/zpfz/vuepress-theme-antdocs/issues/26" target="_blank">#26</a>) <a-tag color="red">破坏性更新</a-tag><br/>
         &emsp;- <a-tag color="green">优化</a-tag> 优化单页面 ( 无侧边栏 ) 的适应宽度 (<a href="https://github.com/zpfz/vuepress-theme-antdocs/issues/21" target="_blank">#21</a>)<br/>
-        &emsp;- <a-tag color="green">优化</a-tag> 优化广告组件类名，以降低被屏蔽的几率
+        &emsp;- <a-tag color="green">优化</a-tag> 优化广告组件类名，降低被插件屏蔽的几率
  (<a href="https://github.com/zpfz/vuepress-theme-antdocs/issues/19" target="_blank">#19</a>)<br/>
-        &emsp;- <a-tag color="green">优化</a-tag> 优化文字对齐方式为两端对齐 (<a href="https://github.com/zpfz/vuepress-theme-antdocs/issues/29" target="_blank">#29</a>)<br/>
         &emsp;- <a-tag color="green">优化</a-tag> 优化代码块主题颜色<br/>
         &emsp;- <a-tag color="purple">修复</a-tag> 修复因升级 core-js 库而导致各种的报错
  (<a href="https://github.com/zpfz/vuepress-theme-antdocs/issues/5" target="_blank">#5</a>)<br/>
