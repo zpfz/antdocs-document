@@ -2,7 +2,7 @@ module.exports = {
   title: "AntDocs",
   theme: "antdocs",
   description: "一款 Ant Design 设计风格的 VuePress 主题",
-  base: "/",
+  // base: "/",
   // dest: 'public',
   head: [
     ["link", { rel: "icon", href: "/assets/logo.png" }],
@@ -20,7 +20,7 @@ module.exports = {
   ],
   plugins: {
     sitemap: {
-      hostname: "https://antdocs.seeyoz.cn"
+      hostname: "https://antdocs.vercel.app/"
     }
   },
   markdown: {
@@ -45,11 +45,6 @@ module.exports = {
       text: "免费又稳定，签到换延期，来试试雨云主机...",
       link: "http://redirect.rainyun.cn/?ref=11126",
       items: [
-        {
-          text: "填写我的邀请码：XKKC88，免费领取 5GB 云存储空间（百年）。不限速，非常好用！",
-          image: "https://s3.ax1x.com/2020/11/17/DePsuq.md.png",
-          link: "https://wenshushu.cn/i/XKKC88"
-        },
         {
           text:
             "点击链接快来和我一起加入语雀文档，体验全新知识创作，让你的协作更高效！",

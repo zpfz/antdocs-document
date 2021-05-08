@@ -13,12 +13,5 @@ module.exports = [
 		children:[
 			"medium-zoom",
 		]
-	},
-	{
-		title: "社区插件",
-		collapsable: true,
-		children:[
-			"waiting-for-you",
-		]
 	}
 ];

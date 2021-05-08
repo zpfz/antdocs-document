@@ -3,12 +3,12 @@
 export default {
   name: "Msg",
   mounted() {
-    let TODO = localStorage.getItem('TODO');
-    if (TODO == false || TODO == null) {
-      localStorage.setItem('TODO', 'true');
+    let readkey = localStorage.getItem('v1.3.1');
+    if (readkey == false || readkey == null) {
+      localStorage.setItem('v1.3.1', 'true');
       this.$notification.open({
-        message: "AntDocs-Next TODO List (WIP)",
-        description: "既然大家那么期待，我就上个开发进度链接啦！不过只是当前开发进度哦~Beta时会有详细的功能开发列表哦！",
+        message: "AntDocs v1.3.1 重磅更新",
+        description: "本次更新优化以及修复之前遗留的诸多BUG，该版本使用体验相对之前提升了一个档次哈，强烈建议大家更新到该版本哦！",
         icon: <a-icon type="fire" style="color: #ec4708" />,
         duration: 0,
         placement: "bottomRight",
@@ -21,16 +21,13 @@ export default {
                 size: "small"
               },
               on: {
-                click: () =>
-                  window.open(
-                    "https://web.banlikanban.com/kanban/6086add31e9f89215510571b/"
-                  )
+                click: () => window.location.href="/guide/changelog.html"
               }
             },
-            "了解进度"
+            "查看更新"
           );
         },
-        key: "egg"
+        key: "v1.3.1"
       });
     }
   }

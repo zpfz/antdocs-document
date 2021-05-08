@@ -1,10 +1,17 @@
 ---
 home: true
 heroImage: /assets/logo.png
-actionText: 快速上手
-actionLink: /guide/
-preactionText: AntDocs-Next
-preactionLink: https://web.banlikanban.com/kanban/6086add31e9f89215510571b/
+actionBtn:
+  text: 快速上手
+  link: /guide/
+  type: primary
+  size: large
+preactionBtn:
+  text: AntDocs 2.0(WIP)
+  link: https://web.banlikanban.com/kanban/6086add31e9f89215510571b/
+  type: primary
+  ghost: true
+  size: large
 features:
 - title: Less 预处理器
   details: 从 Stylus 样式过渡到 Less 样式，统一使用预处理器，让 node_modules 不再过度臃肿。
@@ -36,9 +43,6 @@ footerWrap:
   - title: VuePress 社区
     link: https://shang.qq.com/wpa/qunwpa?idkey=fce20f9d7a5620dbb261b31b6bd01f726c9e24e7697fcba4ea7927d5dc971ac5
     details: QQ交流群
-  - title: 入驻申请
-    link: https://wj.qq.com/s2/5692294/796a/
-    details: 插件/脚本/案例
   - title: 报告 Bug
     link: https://github.com/zpfz/vuepress-theme-antdocs/issues
     details: Github issue
@@ -84,7 +88,7 @@ module.exports = {
 
 ## 效果预览
 
-<p align="center"><img src="https://s2.ax1x.com/2020/02/28/3B3lOf.png"/></p>
+<p style="display: flex;justify-content: center;"><img src="https://s2.ax1x.com/2020/02/28/3B3lOf.png"/></p>
 
 ## 贡献者
 

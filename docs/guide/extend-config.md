@@ -1,5 +1,6 @@
 ---
 title: 扩展配置
+sidebarDepth: 2
 ---
 
 # 扩展配置
@@ -45,7 +46,7 @@ footerWrap:
     - `link`：底部栏分栏下 item 的导航链接。<a-tag color="orange">开启时必选</a-tag>
     - `details`：底部栏分栏下 item 的描述信息。<a-tag color="blue">可选</a-tag>
 
-### 页脚 <a-tag color="green">1.2.2</a-tag>
+### 页脚 <a-tag color="red">v1.2.2+</a-tag>
 为了满足首页页脚支持填写备案号等需求，我们对页脚进行了优化，将其支持填写 html 代码片段。现在，除了直接填写文本外，你还可以这样使用:
 ```js
 footer: Written by Feng L.H. | <a href="http://beian.miit.gov.cn/" target="_blank">自行填写ICP备案号</a>
@@ -145,14 +146,14 @@ themeConfig: {
 - `style`：指定某种风格，可选参数：1，2，3。（实际上，除了1和2之外，其他参数的状态都是这个风格。）<a-tag color="orange">开启时必选</a-tag>
 - `title`：指定广告位的标题。<a-tag color="green">推荐设置</a-tag>
 - `btnText`：指定广告位按钮的名称。<a-tag color="green">推荐设置</a-tag>
-- `msgTitle`：指定弹窗的标题。<a-tag color="green">开启时必选</a-tag>
-- `msgText`：指定弹窗的文本信息。<a-tag color="green">开启时必选</a-tag>
-- `msgOkText`：指定弹窗关闭按钮的名称。<a-tag color="green">开启时必选</a-tag>
+- `msgTitle`：指定弹窗的标题。<a-tag color="orange">开启时必选</a-tag>
+- `msgText`：指定弹窗的文本信息。<a-tag color="orange">开启时必选</a-tag>
+- `msgOkText`：指定弹窗关闭按钮的名称。<a-tag color="orange">开启时必选</a-tag>
 
 当然，这三种效果的配置可以同时存在，你只需要设置好 `style` 就能指定显示某种效果。
 此外，为了给用户保留较好的浏览效果，广告位在移动端默认不显示。如果你非要在移动端显示侧边栏广告的话，可以在 `.vuepress/styles/palette.less` 下添加 `@MobileShow: block;` 即可。
 
-## 置顶按钮 <a-tag color="red">TIP</a-tag>
+## 置顶按钮
 
 为了能够让用户有更多的自由性去设置主题，我们将置顶按钮修改为可自定义开启，只需在 `.vuepress/config.js` 中 `themeConfig` 字段下添加一行 `backToTop: true` 即可开启，反之则关闭。配置示例代码如下：
 ```js {3}
@@ -163,15 +164,51 @@ themeConfig: {
 }
 ```
 
-## 首页次级按钮
+## 首页按钮
+为了让首页主要和次要按钮有个鲜明的对比，在视觉上快速引导用户的选择，我们进一步优化了主要和次要按钮相关配置。你需要打开你的首页 md 文件，在 YAML 内添加以下代码： 
+```md
+actionBtn:
+  text: Get Started
+  link: /guide/
+  type: primary
+  ghost: false
+  size: large
+preactionBtn:
+  text: Playground
+  link: /guide/
+  type: primary
+  ghost: true
+  size: large
+```
+其中，相关字段说明如下：
+- `actionBtn`：主要按钮。<a-tag color="orange">开启时必选</a-tag>
+  - `text`：按钮文字，默认值 `ActionBtn`。<a-tag color="green">推荐设置</a-tag>
+  - `link`：点击按钮后导航链接，默认值 `/`，可以是文档内部链接也可以是外部链接。<a-tag color="green">推荐设置</a-tag>
+  - `type`：按钮类型，默认值 `primary` ，可选值有：`primary`、`dashed`、`danger`、`link`，效果可参考：[按钮类型](https://1x.antdv.com/components/button-cn/#components-button-demo-type)<a-tag color="blue">可选</a-tag>
+  - `ghost`：镂空按钮，默认值 `false`，可选值有：`true` 和 `false`。<a-tag color="blue">可选</a-tag>
+  - `size`：指定按钮大小，默认值 `large`，可选值有：`large`、`default`、`small`，效果可参考：[按钮尺寸](https://1x.antdv.com/components/button-cn/#components-button-demo-size)<a-tag color="blue">可选</a-tag>
+  - `shape`：按钮形状，默认值 `null`，可选值有：`circle`、`round` 和 `null`。<a-tag color="blue">可选</a-tag>
+
+<p></p>
+
+- `preactionBtn`：次要按钮。<a-tag color="orange">开启时必选</a-tag>
+  - `text`：同上，默认值 `PreActionBtn`。<a-tag color="green">推荐设置</a-tag>
+  - `link`：同上。<a-tag color="green">推荐设置</a-tag>
+  - `type`：同上。<a-tag color="blue">可选</a-tag>
+  - `ghost`：同上。<a-tag color="blue">可选</a-tag>
+  - `size`：同上。<a-tag color="blue">可选</a-tag>
+  - `shape`：同上。<a-tag color="blue">可选</a-tag>
+
+
+如果您使用的 1.2.2 版本，您应该参考以下配置：  
 考虑到有些用户需要使用首页次级按钮来引导读者，所以我们在新版本中多添了一个次级按钮。打开你的首页 md 文件，在 YAML 内添加以下代码开启次级按钮：   
 ```md
 preactionText: 次级按钮
 preactionLink: /guide/
 ```
 
-## 移动端侧边栏按钮 <a-tag color="red">TIP</a-tag>
-当你的页面没有侧边栏时，应该在页面 YAML 部分添加以下配置来关闭移动端的侧边栏按钮：
+## 移动端侧边栏按钮 <a-tag color="red">已修复</a-tag>
+~~当你的页面没有侧边栏时，应该在页面 YAML 部分添加以下配置来关闭移动端的侧边栏按钮：~~
 ```sh
 ---
 toggleBtn: 0
@@ -179,6 +216,6 @@ toggleBtn: 0
 ```
 <a-alert type="warning" showIcon>
   <span slot="message">
-    该特性为临时处理方案，在未来版本重构时将会进一步处理显隐逻辑并可能丢弃该功能。
+    该特性在 1.3.1 版本 ( 或者更高 ) 已丢弃并修复了相关BUG，若您还在使用 1.2.2 或者更低版本，建议您升级后去掉该特性的相关配置。
   </span>
 </a-alert> 

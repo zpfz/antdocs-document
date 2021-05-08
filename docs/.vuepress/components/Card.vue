@@ -1,5 +1,5 @@
 <template>
-  <a-col :sm="24" :md="12" :lg="6">
+  <a-col :sm="24" :md="12" :lg="12">
 		<a-card hoverable>
 			<img :src="cover" slot="cover" class="reset-height"/>
 			<template class="ant-card-actions" slot="actions">
