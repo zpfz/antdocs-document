@@ -38,12 +38,12 @@ footerWrap:
     details: details
 ```
 其中，相关字段说明如下：
-- `footerColumn`：底部栏分栏数，最大支持 4 个栏目数。<a-tag color="orange">开启时必选</a-tag>
-- `footerWrap`：底部栏数组。<a-tag color="orange">开启时必选</a-tag>
-  - `headline`：底部栏分栏标题。<a-tag color="green">推荐设置</a-tag>
+- `footerColumn`：底部栏分栏数，最大支持 4 个栏目数。<a-tag color="orange">必选</a-tag>
+- `footerWrap`：底部栏数组。<a-tag color="orange">必选</a-tag>
+  - `headline`：底部栏分栏标题。<a-tag color="blue">可选</a-tag>
   - `items`
-    - `title`：底部栏分栏下 item 的名称。<a-tag color="orange">开启时必选</a-tag>
-    - `link`：底部栏分栏下 item 的导航链接。<a-tag color="orange">开启时必选</a-tag>
+    - `title`：底部栏分栏下 item 的名称。<a-tag color="orange">必选</a-tag>
+    - `link`：底部栏分栏下 item 的导航链接。<a-tag color="orange">必选</a-tag>
     - `details`：底部栏分栏下 item 的描述信息。<a-tag color="blue">可选</a-tag>
 
 ### 页脚 <a-tag color="red">v1.2.2+</a-tag>
@@ -82,12 +82,12 @@ themeConfig: {
 }, 
 ```
 其中，相关字段说明如下：
-- `style`：指定某种风格，可选参数：1，2，3。<a-tag color="orange">开启时必选</a-tag>
-- `image`：指定图片链接。<a-tag color="green">推荐设置</a-tag>
-- `text`：指定文本描述。<a-tag color="green">推荐设置</a-tag>
-- `link`：指定点击广告时跳转的链接。<a-tag color="green">推荐设置</a-tag>
+- `style`：指定某种风格，可选参数：1，2，3。<a-tag color="orange">必选</a-tag>
+- `image`：指定图片链接。<a-tag color="blue">可选</a-tag>
+- `text`：指定文本描述。<a-tag color="blue">可选</a-tag>
+- `link`：指定点击广告时跳转的链接。<a-tag color="blue">可选</a-tag>
 
-此外，你可以在 `.vuepress/styles/palette.less` 下添加样式变量 `@AdsStyle1MW` 来设置图片的最大宽度。
+此外，你可以在 `.vuepress/styles/palette.less` 下添加样式变量 `@PromoStyle1MW` 来设置图片的最大宽度。
 
 ### 广告风格二  
 当你想直接用图片或者有多张图片作为广告时，你可以通过以下的配置来使用这个功能：
@@ -119,12 +119,12 @@ themeConfig: {
 }, 
 ```
 其中，相关字段说明如下：
-- `style`：指定某种风格，可选参数：1，2，3。<a-tag color="orange">开启时必选</a-tag>
-- `speed`：指定切换图片时的速度，默认 3000 毫秒（3秒）。<a-tag color="green">推荐设置</a-tag>
+- `style`：指定某种风格，可选参数：1，2，3。<a-tag color="orange">必选</a-tag>
+- `speed`：指定切换图片时的速度，默认 3000 毫秒（3秒）。<a-tag color="blue">可选</a-tag>
 - `items`  
-    - `text`：指定鼠标在广告上悬停时显示的信息。<a-tag color="green">推荐设置</a-tag>
-    - `image`：指定图片链接。<a-tag color="green">推荐设置</a-tag>
-    - `link`：指定点击广告时跳转的链接。<a-tag color="green">推荐设置</a-tag>
+    - `text`：指定鼠标在广告上悬停时显示的信息。<a-tag color="blue">可选</a-tag>
+    - `image`：指定图片链接。<a-tag color="blue">可选</a-tag>
+    - `link`：指定点击广告时跳转的链接。<a-tag color="blue">可选</a-tag>
 
 ### 招待状态
 当你需要招广告商时，你可以通过以下的配置来使用这个功能：
@@ -143,12 +143,12 @@ themeConfig: {
 }, 
 ```
 其中，相关字段说明如下：
-- `style`：指定某种风格，可选参数：1，2，3。（实际上，除了1和2之外，其他参数的状态都是这个风格。）<a-tag color="orange">开启时必选</a-tag>
-- `title`：指定广告位的标题。<a-tag color="green">推荐设置</a-tag>
-- `btnText`：指定广告位按钮的名称。<a-tag color="green">推荐设置</a-tag>
-- `msgTitle`：指定弹窗的标题。<a-tag color="orange">开启时必选</a-tag>
-- `msgText`：指定弹窗的文本信息。<a-tag color="orange">开启时必选</a-tag>
-- `msgOkText`：指定弹窗关闭按钮的名称。<a-tag color="orange">开启时必选</a-tag>
+- `style`：指定某种风格，可选参数：1，2，3。（实际上，除了1和2之外，其他参数的状态都是这个风格。）<a-tag color="orange">必选</a-tag>
+- `title`：指定广告位的标题。<a-tag color="blue">可选</a-tag>
+- `btnText`：指定广告位按钮的名称。<a-tag color="blue">必选</a-tag>
+- `msgTitle`：指定弹窗的标题。<a-tag color="orange">必选</a-tag>
+- `msgText`：指定弹窗的文本信息。<a-tag color="orange">必选</a-tag>
+- `msgOkText`：指定弹窗关闭按钮的名称。<a-tag color="orange">必选</a-tag>
 
 当然，这三种效果的配置可以同时存在，你只需要设置好 `style` 就能指定显示某种效果。
 此外，为了给用户保留较好的浏览效果，广告位在移动端默认不显示。如果你非要在移动端显示侧边栏广告的话，可以在 `.vuepress/styles/palette.less` 下添加 `@MobileShow: block;` 即可。
@@ -181,19 +181,19 @@ preactionBtn:
   size: large
 ```
 其中，相关字段说明如下：
-- `actionBtn`：主要按钮。<a-tag color="orange">开启时必选</a-tag>
-  - `text`：按钮文字，默认值 `ActionBtn`。<a-tag color="green">推荐设置</a-tag>
-  - `link`：点击按钮后导航链接，默认值 `/`，可以是文档内部链接也可以是外部链接。<a-tag color="green">推荐设置</a-tag>
-  - `type`：按钮类型，默认值 `primary` ，可选值有：`primary`、`dashed`、`danger`、`link`，效果可参考：[按钮类型](https://1x.antdv.com/components/button-cn/#components-button-demo-type)<a-tag color="blue">可选</a-tag>
+- `actionBtn`：主要按钮。<a-tag color="blue">可选</a-tag>
+  - `text`：按钮文字，默认值 `ActionBtn`。<a-tag color="blue">可选</a-tag>
+  - `link`：点击按钮后导航链接，默认值 `/`，可以是文档内部链接也可以是外部链接。<a-tag color="blue">可选</a-tag>
+  - `type`：按钮类型，默认值 `primary` ，可选值有：`primary`、`dashed`、`danger`、`link`，效果可参考：[按钮类型](https://1x.antdv.com/components/button-cn/#components-button-demo-type) <a-tag color="blue">可选</a-tag>
   - `ghost`：镂空按钮，默认值 `false`，可选值有：`true` 和 `false`。<a-tag color="blue">可选</a-tag>
-  - `size`：指定按钮大小，默认值 `large`，可选值有：`large`、`default`、`small`，效果可参考：[按钮尺寸](https://1x.antdv.com/components/button-cn/#components-button-demo-size)<a-tag color="blue">可选</a-tag>
+  - `size`：指定按钮大小，默认值 `large`，可选值有：`large`、`default`、`small`，效果可参考：[按钮尺寸](https://1x.antdv.com/components/button-cn/#components-button-demo-size) <a-tag color="blue">可选</a-tag>
   - `shape`：按钮形状，默认值 `null`，可选值有：`circle`、`round` 和 `null`。<a-tag color="blue">可选</a-tag>
 
 <p></p>
 
-- `preactionBtn`：次要按钮。<a-tag color="orange">开启时必选</a-tag>
-  - `text`：同上，默认值 `PreActionBtn`。<a-tag color="green">推荐设置</a-tag>
-  - `link`：同上。<a-tag color="green">推荐设置</a-tag>
+- `preactionBtn`：次要按钮。<a-tag color="blue">可选</a-tag>
+  - `text`：同上，默认值 `PreActionBtn`。<a-tag color="blue">可选</a-tag>
+  - `link`：同上。<a-tag color="blue">可选</a-tag>
   - `type`：同上。<a-tag color="blue">可选</a-tag>
   - `ghost`：同上。<a-tag color="blue">可选</a-tag>
   - `size`：同上。<a-tag color="blue">可选</a-tag>
