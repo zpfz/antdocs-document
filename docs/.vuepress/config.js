@@ -24,7 +24,7 @@ module.exports = {
     }
   },
   markdown: {
-    lineNumbers: true,
+    lineNumbers: false,
     anchor: {
       permalinkBefore: false
     }
