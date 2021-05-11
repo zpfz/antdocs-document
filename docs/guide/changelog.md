@@ -9,8 +9,23 @@ title: 更新日志
 <template>
   <a-timeline>
     <a-timeline-item>
+      v1.3.4
+      <p>
+        更新内容：<br/>
+        &emsp;- <a-tag color="green">优化</a-tag> 优化调整 Last Updated 在移动端无侧边栏时的位置<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
+      v1.3.3
+      <p>
+        更新内容：<br/>
+        &emsp;- <a-tag color="green">优化</a-tag> 优化调整 Last Updated 在 PC 端无侧边栏时的位置<br/>
+        &emsp;- <a-tag color="green">优化</a-tag> 修改无侧边栏内容区默认宽度为 960px<br/>
+        &emsp;- <a-tag color="purple">修复</a-tag> 修复代码行号颜色显示和错位问题 (<a href="https://github.com/zpfz/vuepress-theme-antdocs/issues/31" target="_blank">#31</a>)
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
       v1.3.2
-      <a-tag color="#f50">推荐</a-tag>
       <p>
         更新内容：<br/>
         &emsp;- <a-tag color="green">优化</a-tag> 丰富首页主要和次要按钮的配置，使配置更加自由 (<a href="https://github.com/zpfz/vuepress-theme-antdocs/issues/26" target="_blank">#26</a>) <a-tag color="red">破坏性更新</a-tag><br/>

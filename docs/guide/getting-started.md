@@ -46,4 +46,4 @@ module.exports = {
 
 ## 效果预览
 
-<p style="display: flex;justify-content: center;"><img src="https://s2.ax1x.com/2020/02/28/3B3lOf.png"/></p>
+<p align="center"><img src="https://s2.ax1x.com/2020/02/28/3B3lOf.png"/></p>

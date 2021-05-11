@@ -37,7 +37,7 @@ title: Example docs
 ### 4.不要浪费 VuePress 可直接识别的 README.md 文件。
 我们推荐你在所要导航的每个子目录下创建一个 `README.md` 文件，然后把它当成常规的 `.md` 文件进行写作。这样做的目的是防止用户在访问你的网站时，浏览的页面不会变成 404，这对用户有着极好的浏览体验。  
 
-<p style="display: flex;justify-content: center;"> 
+<p align="center"> 
 
 <img src="https://s2.ax1x.com/2020/02/09/1fZzOe.png" alt="1fZzOe.png" border="0" />
 
