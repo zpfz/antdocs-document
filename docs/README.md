@@ -148,4 +148,4 @@ module.exports = {
 </a-tooltip>
 
 
-<!-- <Msg /> -->
+<Msg />
