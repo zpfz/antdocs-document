@@ -9,6 +9,13 @@ title: 更新日志
 <template>
   <a-timeline>
     <a-timeline-item>
+      v1.3.5
+      <p>
+        更新内容：<br/>
+        &emsp;- <a-tag color="green">优化</a-tag> 优化首页配置缺少 actionBtn/preactionBtn 配置时提示 'link' of undefined 的错误 (<a href="https://github.com/zpfz/vuepress-theme-antdocs/issues/33" target="_blank">#33</a>)<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
       v1.3.4
       <p>
         更新内容：<br/>

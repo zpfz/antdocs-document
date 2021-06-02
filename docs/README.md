@@ -98,35 +98,42 @@ module.exports = {
   <template slot="title">
     左撇峰子
   </template>
-  <a-avatar src="https://s2.ax1x.com/2020/02/28/3rs23q.jpg" :size="54"/>
+  <a-avatar src="https://avatars.githubusercontent.com/u/49757965?v=4" :size="54"/>
 </a-tooltip>
 &ensp;
 <a-tooltip placement="bottom">
   <template slot="title">
     Guojun Chen
   </template>
-  <a-avatar src="https://s2.ax1x.com/2020/02/29/3yu9OK.jpg" :size="54"/>
+  <a-avatar src="https://avatars.githubusercontent.com/u/10856371?v=4" :size="54"/>
 </a-tooltip> 
 &ensp;
 <a-tooltip placement="bottom">
   <template slot="title">
     Baiang
   </template>
-  <a-avatar src="https://avatars2.githubusercontent.com/u/8638857?s=120&v=4" :size="54"/>
+  <a-avatar src="https://avatars.githubusercontent.com/u/8638857?v=4" :size="54"/>
 </a-tooltip>  
 &ensp;
 <a-tooltip placement="bottom">
   <template slot="title">
     Yexk_M
   </template>
-  <a-avatar src="https://avatars2.githubusercontent.com/u/19749521?s=400&u=62d64f041af4a703c3a4089de9957c7c6a5c671f&v=4" :size="54"/>
+  <a-avatar src="https://avatars.githubusercontent.com/u/19749521?v=4" :size="54"/>
 </a-tooltip> 
 &ensp;
 <a-tooltip placement="bottom">
   <template slot="title">
     kitaharafay
   </template>
-  <a-avatar src="https://avatars0.githubusercontent.com/u/37034015?s=400&u=773ab8dae0850cfd01f828e7c407d423b58ec748&v=4" :size="54"/>
+  <a-avatar src="https://avatars.githubusercontent.com/u/37034015?v=4" :size="54"/>
+</a-tooltip> 
+&ensp;
+<a-tooltip placement="bottom">
+  <template slot="title">
+    xkloveme
+  </template>
+  <a-avatar src="https://avatars.githubusercontent.com/u/29595042?v=4" :size="54"/>
 </a-tooltip> 
 
 

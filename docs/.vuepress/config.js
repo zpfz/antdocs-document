@@ -7,7 +7,7 @@ module.exports = {
   head: [
     ["link", { rel: "icon", href: "/assets/logo.png" }],
     ["script", { type: "text/javascript", src: "/assets/js/push.js" }],
-
+    // ['link', { rel: 'stylesheet', href: '/assets/css/prism-tomorrow.css' }],
     ["meta", { name: "referrer", content: "never" }],
     [
       "meta",
