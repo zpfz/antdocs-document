@@ -20,7 +20,7 @@ module.exports = {
   ],
   plugins: {
     sitemap: {
-      hostname: "https://antdocs.vercel.app/"
+      hostname: "https://antdocs.pages.dev/"
     }
   },
   markdown: {
@@ -45,6 +45,13 @@ module.exports = {
       text: "免费又稳定，签到换延期，来试试雨云主机...",
       link: "http://redirect.rainyun.cn/?ref=11126",
       items: [
+        {
+          text:
+            "「阿里云盘」不限速就是快，点击就赠送你 500GB 快来试试吧！",
+          image: "https://z3.ax1x.com/2021/06/15/2qdKFU.md.png",
+          link:
+            "https://pages.aliyundrive.com/mobile-page/web/beinvited.html?code=f72acb3"
+        },
         {
           text:
             "点击链接快来和我一起加入语雀文档，体验全新知识创作，让你的协作更高效！",
