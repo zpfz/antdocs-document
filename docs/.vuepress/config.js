@@ -18,7 +18,7 @@ module.exports = {
   ],
   plugins: {
     sitemap: {
-      hostname: "https://antdocs.pages.dev/"
+      hostname: "https://antdocs.vercel.app/"
     }
   },
   markdown: {
@@ -41,7 +41,7 @@ module.exports = {
       style: 2,
       image: "https://www.rainyun.com/img/rainyun.png",
       text: "免费又稳定，签到换延期，来试试雨云主机...",
-      link: "http://redirect.rainyun.cn/?ref=11126",
+      link: "https://www.rainyun.com/?ref=11126",
       items: [
         {
           text:
@@ -60,7 +60,7 @@ module.exports = {
         {
           text: "免费又稳定，签到换延期，来试试雨云主机吧！",
           image: "https://s1.ax1x.com/2020/04/06/GsvilQ.md.png",
-          link: "http://redirect.rainyun.cn/?ref=11126"
+          link: "https://www.rainyun.com/?ref=11126"
         }
       ]
     }
