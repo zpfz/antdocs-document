@@ -1,6 +1,5 @@
 ---
 title: 扩展配置
-sidebarDepth: 2
 ---
 
 # 扩展配置
