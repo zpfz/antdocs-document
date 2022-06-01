@@ -16,11 +16,14 @@ module.exports = {
       }
     ]
   ],
-  plugins: {
-    sitemap: {
-      hostname: "https://antdocs.vercel.app/"
-    }
-  },
+  plugins: [
+    [
+      "sitemap",
+      {
+        hostname: "https://antdocs.vercel.app/"
+      }
+    ]
+  ],
   markdown: {
     lineNumbers: false,
     anchor: {
@@ -44,8 +47,7 @@ module.exports = {
       link: "https://www.rainyun.com/?ref=11126",
       items: [
         {
-          text:
-            "「阿里云盘」不限速就是快，点击就赠送你 500GB 快来试试吧！",
+          text: "「阿里云盘」不限速就是快，点击就赠送你 500GB 快来试试吧！",
           image: "https://z3.ax1x.com/2021/06/15/2qdKFU.md.png",
           link:
             "https://pages.aliyundrive.com/mobile-page/web/beinvited.html?code=f72acb3"
@@ -64,7 +66,7 @@ module.exports = {
         }
       ]
     }
-  },
+  }
   // configureWebpack: (config, isServer) => {
   //   // config.entry = glob.sync("./dist/*.js");
   //   if (!isServer) {

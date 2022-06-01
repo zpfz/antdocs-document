@@ -9,6 +9,19 @@ title: 更新日志
 <template>
   <a-timeline>
     <a-timeline-item>
+      v1.4.0
+      <p>
+        更新内容：<br/>
+        &emsp;- <a-tag color="orange">新增</a-tag> 新增右侧边栏<br/>
+        &emsp;- <a-tag color="green">优化</a-tag> 优化调整调整导航栏选中的效果<br/>
+        &emsp;- <a-tag color="green">优化</a-tag> 删除 Footer 无用属性 footerColumn<br/>
+        &emsp;- <a-tag color="green">优化</a-tag> 首页按钮字段更改为 actions，详情见（待补充）<a-tag color="red">破坏性更新</a-tag><br/>
+        &emsp;- <a-tag color="green">优化</a-tag> 优化其他视觉细节效果<br/>
+        &emsp;- <a-tag color="purple">修复</a-tag> 修复返回顶部动画延迟的BUG<br/>
+        &emsp;- <a-tag color="purple">修复</a-tag> 修复广告栏未开启仍渲染DOM的BUG<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
       v1.3.5
       <p>
         更新内容：<br/>
@@ -59,7 +72,7 @@ title: 更新日志
       v1.2.0
       <p>
         更新内容：<br/>
-        &emsp;- <a-tag color="orange">新增</a-tag> 新增 多语言设置<br/>
+        &emsp;- <a-tag color="orange">新增</a-tag> 新增多语言设置<br/>
       </p>
     </a-timeline-item>
     <a-timeline-item>
