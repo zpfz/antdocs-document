@@ -29,9 +29,8 @@ npm i vuepress-theme-antdocs
 
 ```js
 module.exports = {
-  ...
   theme: 'antdocs',
-  ...
+  // ...
 }
 ```
 如果你对 VuePress 主题配置不是很了解，请点这里：[使用主题](https://vuepress.vuejs.org/zh/theme/using-a-theme.html#%E4%B8%BB%E9%A2%98%E7%9A%84%E7%BC%A9%E5%86%99)  
@@ -40,7 +39,7 @@ module.exports = {
 
 <a-alert type="warning" showIcon>
   <span slot="message">
-    运行前请确认你的项目已安装 VuePress 依赖，而不是直接使用全局 VuePress 依赖。（作者的项目曾因为直接使用全局 VuePress 依赖，导致 back-to-top 插件无法正常显示，然后项目里单独安装 VuePress 依赖后才得以解决。）
+    运行前请确认你的项目已安装 VuePress 依赖，而不是直接使用全局 VuePress 依赖。
   </span>
 </a-alert>
 

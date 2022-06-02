@@ -13,9 +13,9 @@ vuepress-theme-antdocs 是采用 MIT 许可的开源项目，使用完全免费�
 
 ## 周期性赞助
 
-周期性赞助可以获得额外的回报，比如你的名字会出现在我们的官网 antdocs.seeyoz.cn 上。(赞助方式同上)  
+周期性赞助可以获得额外的回报，比如你的名字会出现在我们的官网 antdocs.vercel.app 上。(赞助方式同上)  
 
 
-如果你是企业经营者并且将 AntDocs of VuePress 用在商业产品说明文档中，那么赞助 AntDocs of VuePress 有商业上的益处：可以让你的产品说明文档的主题保持健康并得到积极的维护，也能帮助你在 VuePress 社区里获得更高的曝光度，从而更容易地吸引到 VuePress 开发或写作者。
+如果你是企业经营者并且将 AntDocs of VuePress 用在商业产品说明文档中，那么赞助 AntDocs of VuePress 有商业上的益处：可以让你的产品说明文档的主题保持健康并得到积极的维护，也能帮助你在 VuePress 社区里获得更高的曝光度，从而更容易地吸引到 VuePress 开发或写作者。   
 
 如果你是个人开发者并且享受 AntDocs of VuePress 带来的写作效率，可以用捐助来表示你的谢意 —— 就好像偶尔给我买杯咖啡☕~

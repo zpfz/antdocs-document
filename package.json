@@ -6,10 +6,10 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.8.2",
+    "vuepress": "1.9.7",
     "vuepress-plugin-sitemap": "^2.3.1"
   },
   "dependencies": {
-    "vuepress-theme-antdocs": "^1.4.0"
+    "vuepress-theme-antdocs": "^1.4.2"
   }
 }

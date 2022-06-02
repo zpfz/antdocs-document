@@ -8,11 +8,7 @@ module.exports = [
     link: '/guide/'
   },
   {
-    text: '插件',
-    link: '/plugin/'
-  },
-  {
-    text: '案例',
-    link: '/case/'
+    text: '配置',
+    link: '/config/'
   }
 ];

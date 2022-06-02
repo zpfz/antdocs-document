@@ -1,17 +1,16 @@
 ---
 home: true
 heroImage: /assets/logo.png
-actionBtn:
-  text: 快速上手
-  link: /guide/
-  type: primary
-  size: large
-preactionBtn:
-  text: AntDocs 2.0(WIP)
-  link: https://web.banlikanban.com/kanban/6086add31e9f89215510571b/
-  type: primary
-  ghost: true
-  size: large
+actions:
+  - text: 快速上手
+    link: /guide/
+    type: primary
+    size: large
+  - text: 在线演示
+    link: /guide/
+    type: primary
+    ghost: true
+    size: large
 features:
 - title: Less 预处理器
   details: 从 Stylus 样式过渡到 Less 样式，统一使用预处理器，让 node_modules 不再过度臃肿。
@@ -36,8 +35,8 @@ footerWrap:
   items:
   - title: VuePress
     link: https://vuepress.vuejs.org/zh/
-  - title: Ant Design Vue
-    link: https://antdv.com/
+  - title: Ant Design Vue 1.x
+    link: https://1x.antdv.com/docs/vue/introduce-cn/
 - headline: 💬社区交流
   items:
   - title: VuePress 社区
@@ -54,7 +53,7 @@ footerWrap:
   - title: CSDN
     link: https://blog.csdn.net/zpfz756/
     details: 专业IT技术社区
-footer: MIT Licensed | Copyright © 2020-present Feng Left-Handed
+footer: MIT Licensed | Copyright © 2020-present Feng L.H.
 ---
 
 # 快速上手
@@ -77,9 +76,8 @@ npm i vuepress-theme-antdocs
 
 ```js
 module.exports = {
-  ...
   theme: 'antdocs',
-  ...
+  // ...
 }
 ```
 如果你对 VuePress 主题配置不是很了解，请点这里：[使用主题](https://vuepress.vuejs.org/zh/theme/using-a-theme.html#%E4%B8%BB%E9%A2%98%E7%9A%84%E7%BC%A9%E5%86%99)  

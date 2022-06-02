@@ -1,5 +1,5 @@
 ---
-title: 调色板
+title: 定制主题
 ---
 
 # 调色板
@@ -26,9 +26,9 @@ AntDocs 支持一定程度的样式定制，以满足文档多样化的视觉需
 @badgeErrorColor: #ed4014; // 危险徽标背景颜色
 
 // 布局
-@navbarHeight: 4.125rem; // 导航栏高度
+@navbarHeight: 4rem; // 导航栏高度
 @sidebarWidth: 20rem; // 侧边栏宽度
-@contentWidth: unset; // 内容区域宽度
+@contentWidth: 1100px; // 内容区域宽度
 @homePageWidth: 960px; // 主页宽度
 ```
 如果以上变量不能满足你的定制需求，可以给我们提 issue。
@@ -60,11 +60,11 @@ AntDocs 支持一定程度的样式定制，以满足文档多样化的视觉需
 如果你还想使用 css 样式文件，我们推荐你使用头部注入 css 样式的方法，在 `.vuepress/config.js` 的 head 字段里配置好 css 的引用，比如：
 ```js
 module.exports = {
-  ...
+  // ...
   head: [
     ['link', { rel: 'stylesheet', href: '/css/style.css' }]
   ],
-  ...
+  // ...
 }
 ```
 然后在 `.vuepress/public/` 文件夹下创建一个名为 `css` 的文件夹，其文件夹下还需创建 `style.css` 样式文件，接着你就可以直接往里面写你所要的样式。
