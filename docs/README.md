@@ -7,7 +7,7 @@ actions:
     type: primary
     size: large
   - text: 在线演示
-    link: /guide/
+    link: https://codesandbox.io/s/zpfz-antdocs-document-0jzb8r
     type: primary
     ghost: true
     size: large
