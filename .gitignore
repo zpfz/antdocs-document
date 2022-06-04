@@ -74,6 +74,4 @@ list.txt
 site/dev.js
 
 # uesless file
-vuepress-theme-antdocs/LICENSE
-vuepress-theme-antdocs/package.json
-vuepress-theme-antdocs/README.md
+pnpm-lock.yaml

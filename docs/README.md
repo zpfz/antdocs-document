@@ -18,7 +18,6 @@ features:
   details: 主题搭载 Ant Design of Vue 组件，支持 Markdown 语法与 Ant Design 组件混用。
 - title: 各种功能优化
   details: 新增底部栏目设置，优化行内代码、代码块以及其他各种显示效果和动画，真正实现风格迁移。
-footerColumn: 4
 footerWrap: 
 - headline: 🌿生态系统
   items:
