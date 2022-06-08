@@ -21,7 +21,7 @@ AntDocs 是一款由 VuePress 驱动并具有 Ant Design 设计风格的主题�
 <iframe class="reset-iframe" src="https://ghbtns.com/github-btn.html?user=zpfz&repo=vuepress-theme-antdocs&type=star&count=true" frameborder="0" scrolling="0" width="170px" height="20px"></iframe>
 
 <div class="reset-mobile-brand">
-<img width="130" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"><span class="sign">+</span><img width="130" src="https://cn.vuejs.org/images/logo.png"><span class="sign">+</span><img src="https://s2.ax1x.com/2020/02/04/1DsmTO.png" alt="1DsmTO.png" width="140"/><span class="sign">=</span><span class="reset-mobile-brand-4"><img src="https://s2.ax1x.com/2020/02/27/3aIcDK.png" width="100" alt="3aIcDK.png" /></span>
+<img width="110" src="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"><span class="sign">+</span><img width="107" src="https://cn.vuejs.org/images/logo.png"><span class="sign">+</span><img src="https://s2.ax1x.com/2020/02/04/1DsmTO.png" alt="1DsmTO.png" width="125"/><span class="sign">=</span><span class="reset-mobile-brand-4"><img src="https://s2.ax1x.com/2020/02/27/3aIcDK.png" width="93" alt="3aIcDK.png" /></span>
 </div>
 
 <p>&nbsp; </p>

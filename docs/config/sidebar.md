@@ -4,7 +4,7 @@ title: 侧边栏
 
 # 侧边栏
 
-这里仅介绍默认主题所没有的功能，如需了解侧边栏的其他配置请看：[侧边栏](https://vuepress.vuejs.org/zh/theme/default-theme-config.html#侧边栏)
+这里仅介绍默认主题内置除外的功能，，如需了解侧边栏的内置功能请看：[侧边栏](https://vuepress.vuejs.org/zh/theme/default-theme-config.html#侧边栏)
 
 <a-divider />
 

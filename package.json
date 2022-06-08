@@ -10,6 +10,6 @@
     "vuepress-plugin-sitemap": "^2.3.1"
   },
   "dependencies": {
-    "vuepress-theme-antdocs": "^1.4.2"
+    "vuepress-theme-antdocs": "1.4.3"
   }
 }

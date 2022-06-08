@@ -9,6 +9,13 @@ title: 更新日志
 <template>
   <a-timeline>
     <a-timeline-item>
+      v1.4.3
+      <p>
+        更新内容：<br/>
+        &emsp;- <a-tag color="purple">修复</a-tag> 右侧边栏折叠按钮样式异常BUG，暂时撤销右侧边栏折叠按钮<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
       v1.4.2
       <p>
         更新内容：<br/>
@@ -27,11 +34,11 @@ title: 更新日志
       v1.4.0
       <p>
         更新内容：<br/>
-        &emsp;- <a-tag color="orange">新增</a-tag> 新增右侧边栏<br/>
-        &emsp;- <a-tag color="orange">新增</a-tag> 新增暗黑模式切换按钮 <a-tag color="cyan">实验性功能</a-tag><br/>
+        &emsp;- <a-tag color="orange">新增</a-tag> 新增右侧边栏，详情见 (<a href="/config/sidebar.html#右侧边栏">右侧边栏</a>) <br/>
+        &emsp;- <a-tag color="orange">新增</a-tag> 新增暗黑模式切换按钮，详情见 (<a href="/config/navbar.html#暗黑模式切换按钮">暗黑模式切换按钮</a>) <a-tag color="cyan">实验性功能</a-tag><br/>
         &emsp;- <a-tag color="green">优化</a-tag> 优化调整调整导航栏选中的效果 (<a href="https://github.com/zpfz/vuepress-theme-antdocs/issues/40" target="_blank">#40</a>)<br/>
         &emsp;- <a-tag color="green">优化</a-tag> 删除 Footer 无用属性 footerColumn<br/>
-        &emsp;- <a-tag color="green">优化</a-tag> 首页按钮字段更改为 actions，详情见（待补充）<a-tag color="red">破坏性更新</a-tag><br/>
+        &emsp;- <a-tag color="green">优化</a-tag> 首页按钮字段更改为 actions，详情见 (<a href="/config/#导航按钮">导航按钮</a>) <a-tag color="red">破坏性更新</a-tag><br/>
         &emsp;- <a-tag color="green">优化</a-tag> 优化其他视觉细节效果<br/>
         &emsp;- <a-tag color="purple">修复</a-tag> 修复返回顶部动画延迟的BUG<br/>
         &emsp;- <a-tag color="purple">修复</a-tag> 修复广告栏未开启仍渲染 DOM 的BUG<br/>
