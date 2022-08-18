@@ -9,6 +9,13 @@ title: 更新日志
 <template>
   <a-timeline>
     <a-timeline-item>
+      v1.4.4
+      <p>
+        更新内容：<br/>
+        &emsp;- <a-tag color="purple">修复</a-tag> 修复 Ant Design 按钮组件样式污染BUG<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
       v1.4.3
       <p>
         更新内容：<br/>
