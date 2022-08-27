@@ -3,9 +3,9 @@
 export default {
   name: "Msg",
   mounted() {
-    let readkey = localStorage.getItem('20220329');
+    let readkey = localStorage.getItem('20220828');
     if (readkey == false || readkey == null) {
-      localStorage.setItem('20220329', 'true');
+      localStorage.setItem('20220828', 'true');
       this.$notification.open({
         message: "AntDocs官网地址更新通知",
         description: "由于近期 Vercel/CloudFlare 服务出现波动，计划将 antdocs.netlify.app 作为文档主题主域名，其他作为备用域名，给大家带来不便敬请谅解！",
@@ -27,7 +27,7 @@ export default {
         //     "查看更新"
         //   );
         // },
-        key: "20220329"
+        key: "20220828"
       });
     }
   }
