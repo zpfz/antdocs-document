@@ -9,6 +9,13 @@ title: 更新日志
 <template>
   <a-timeline>
     <a-timeline-item>
+      v1.4.5
+      <p>
+        更新内容：<br/>
+        &emsp;- <a-tag color="green">优化</a-tag> 优化导航菜单 target 类型规则<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
       v1.4.4
       <p>
         更新内容：<br/>

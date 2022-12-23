@@ -20,7 +20,7 @@ module.exports = {
     [
       "sitemap",
       {
-        hostname: "https://antdocs.vercel.app/"
+        hostname: "https://antdocs.js.org/"
       }
     ]
   ],
@@ -44,14 +44,14 @@ module.exports = {
       style: 2,
       image: "https://www.rainyun.com/img/rainyun.png",
       text: "免费又稳定，签到换延期，来试试雨云主机...",
-      link: "https://www.rainyun.com/?ref=11126",
+      link: "https://www.rainyun.com/?ref=MTExMjY=",
       items: [
-        {
-          text: "「阿里云盘」不限速就是快，点击就赠送你 500GB 快来试试吧！",
-          image: "https://z3.ax1x.com/2021/06/15/2qdKFU.md.png",
-          link:
-            "https://pages.aliyundrive.com/mobile-page/web/beinvited.html?code=f72acb3"
-        },
+        // {
+        //   text: "「阿里云盘」不限速就是快，点击就赠送你 500GB 快来试试吧！",
+        //   image: "https://z3.ax1x.com/2021/06/15/2qdKFU.md.png",
+        //   link:
+        //     "https://pages.aliyundrive.com/mobile-page/web/beinvited.html?code=f72acb3"
+        // },
         {
           text:
             "点击链接快来和我一起加入语雀文档，体验全新知识创作，让你的协作更高效！",
@@ -62,7 +62,7 @@ module.exports = {
         {
           text: "免费又稳定，签到换延期，来试试雨云主机吧！",
           image: "https://s1.ax1x.com/2020/04/06/GsvilQ.md.png",
-          link: "https://www.rainyun.com/?ref=11126"
+          link: "https://www.rainyun.com/?ref=MTExMjY="
         }
       ]
     }
