@@ -12,6 +12,13 @@ title: 更新日志
       v1.4.5
       <p>
         更新内容：<br/>
+        &emsp;- <a-tag color="purple">修复</a-tag> 修复导航栏在移动端下宽度溢出的问题<br/>
+      </p>
+    </a-timeline-item>
+    <a-timeline-item>
+      v1.4.5
+      <p>
+        更新内容：<br/>
         &emsp;- <a-tag color="green">优化</a-tag> 优化导航菜单 target 类型规则<br/>
       </p>
     </a-timeline-item>
