@@ -9,7 +9,7 @@ title: 更新日志
 <template>
   <a-timeline>
     <a-timeline-item>
-      v1.4.5
+      v1.4.6
       <p>
         更新内容：<br/>
         &emsp;- <a-tag color="purple">修复</a-tag> 修复导航栏在移动端下宽度溢出的问题<br/>
